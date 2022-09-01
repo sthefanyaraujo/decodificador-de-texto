@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+  <script src="./script.js" defer></script>
+  <title>Decodificador - Alura</title>
+</head>
+<body>
+  <header>
+    <img src="./img/logo.svg" alt="logo da Alura">
+  </header>
+  <main>
+    <section class="digitar-texto">
+      <textarea id="input-texto" cols="30" rows="10" placeholder="Digite seu texto:"></textarea>
+      
+      <div class="aviso">
+        <span>
+        <img src="./img/icon.svg" alt="ícone de exclamação">
+        Apenas letras minúsculas e sem acento.</span>
+      </div>
+      
+      <div class="botoes">
+        <button class="criptografar" onclick="btnEncriptar()">Criptografar</button>
+        <button class="descriptografar" onclick="btnDesencriptar()">Descriptografar</button>
+      </div>
+    </section>
+
+    <section class="texto-encriptado">
+      <img id="img" src="./img/image.svg" alt="Figura de um rapaz olhando um diamante através de uma lupa">
+      <textarea id="mensagem" cols="30" rows="10" placeholder="Digite um texto que você deseja criptografar ou descriptografar."></textarea>
+       <button id="copiar" onclick="copiar()">Copiar</button>
+    </section>
+  </main>
+
+  <footer>
+    <div class="links">
+      <a href="https://github.com/sthefanyaraujo" target="_blank">
+        <box-icon color="white" type='logo' name='github'></box-icon>
+      </a>
+      
+      <a href="https://linkedin.com/in/sthefany-araujo1" target="_blank">
+        <box-icon color="white" name='linkedin' type='logo' ></box-icon>
+      </a>
+    </div>
+   
+    <p class="copyright">	
+      &copy; Desenvolvido por Sthefany Araújo - 2022
+    </p>
+  </footer>
+</body>
+</html>
